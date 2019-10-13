@@ -5,7 +5,7 @@
 # McKinsey - Hack the crash
 
 ​	Predicting damage inflicted in traffic accidents.
-
+https://safe-ly.github.io/
 ## Data Preprocessing
 
 - **Correlation** - measured between features and target value allowed sometimes to decide if drop column.
