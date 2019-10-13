@@ -1,12 +1,10 @@
+![img](https://raw.githubusercontent.com/Safe-ly/HACK-UPC-ML/master/logo.png)
 
-<img src="https://hackupc.com/assets/img/ogimage.png?v=2019-v2" allign="left" title="HACKUPC">
+------------------------------------------
 
+# McKinsey - Hack the crash
 
-# Hack the crash
-
-Predicting damage inflicted in traffic accidents by:
-
-<img src="https://surveymonkey-assets.s3.amazonaws.com/survey/174106945/5405a962-6133-4ae3-8c78-44c9113d9f75.png" align="left" height="110"  title="McKinsey">
+​	Predicting damage inflicted in traffic accidents.
 
 ## Data Preprocessing
 
@@ -56,7 +54,7 @@ Predicting damage inflicted in traffic accidents by:
 
 ## Feature Selection
 
-- R² Denoisser - I've used two regerssors inside denoiser: Decision Tree Regressior and K-Neares Neighbours Regressor
+- **R² Denoisser** - I've used two regerssors inside denoiser: Decision Tree Regressior and K-Neares Neighbours Regressor
 
   ```
   R² Score Denoisser
@@ -70,7 +68,7 @@ Predicting damage inflicted in traffic accidents by:
   Number of Selected Features: 68
   ```
 
-- Boruta Selection - resulted in 16 features.
+- **Boruta Selection** - resulted in 16 features.
 
   Boruta gives closer look at selected features. The most important were **Light and Weather Condition**.
 
@@ -84,7 +82,7 @@ Predicting damage inflicted in traffic accidents by:
   Number of Selected Features: 16
   ```
 
-- PCA - I've also tried Principal Component Analysis to select the most informative features.
+- **PCA** - I've also tried Principal Component Analysis to select the most informative features.
 
   ```python
   def pca_decomp(X_train, Y_train):
@@ -255,7 +253,6 @@ As a result none of our feature selection technique performed better than whole 
 - Try to use **PCA** and other dimension reducing techniques as **LDA** or **QDA** instead of feature selection.
 - Know your algorithm parameters to properly **GridSearch** over them.
 - Feature processing may be very time consuming use functions and generalize your tasks.
-- 
 
 ## Summary
 
@@ -268,3 +265,13 @@ working on all features and whole set gained F1 Score = **34.17**
 
 
 **Mateusz Dorobek** - Team Safely  - **HACK UPC 2019**
+
+---------------------------------------------
+
+
+
+<img src="https://surveymonkey-assets.s3.amazonaws.com/survey/174106945/5405a962-6133-4ae3-8c78-44c9113d9f75.png">
+
+----------------------------------------
+
+<img src="https://hackupc.com/assets/img/ogimage.png?v=2019-v2">
