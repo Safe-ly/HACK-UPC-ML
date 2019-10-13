@@ -264,7 +264,7 @@ working on all features and whole set gained F1 Score = **34.17**
 
 
 
-**Mateusz Dorobek** - Team Safely  - **HACK UPC 2019**
+**Mateusz Dorobek, Piotr Podbielski, Aitor Mato, Jaume Mora Viñes ** - Team Safely  - **HACK UPC 2019**
 
 ---------------------------------------------
 
